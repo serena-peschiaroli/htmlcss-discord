@@ -15,7 +15,6 @@ body{
     width: 80%;
     margin: 0 auto;
     max-width: 1100px;
-    border: 1px solid black;
 }
 .align-items-center {
     align-items: center;
@@ -42,7 +41,7 @@ body{
 .header-logo, 
 .header-actions {
     width: 30%;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .header-nav {
@@ -108,6 +107,7 @@ color: white;
     /* Debug */
     background-color: blue;
     background-image: url(../img/jumbo.png);
+    background-size: cover ;
     color: white;
     padding: 6rem 0;
     display: flex;
@@ -116,18 +116,30 @@ color: white;
     align-items: center; */
 } 
 
+.wrapper-content h1 {
+    padding-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.wrapper-content p:nth-child(1) {
+    font-size: 0.8rem;
+    padding-bottom: 3rem;
+}
+
 .wrapper-content {
     width: 60%;
     margin: 0 auto;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
-/* .section {
+ .section {
     display: flex;
    height: 400px;
     width: 100%;
     justify-content: center;
     align-items: center; 
-}*/
+}
 
 .actions-discord {
     justify-content: space-between;
