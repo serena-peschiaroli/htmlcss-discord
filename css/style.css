@@ -109,7 +109,7 @@ color: white;
     background-image: url(../img/jumbo.png);
     background-size: cover ;
     color: white;
-    padding: 6rem 0;
+    padding: 4rem 0;
     display: flex;
     /* min-height: 500px;
     
@@ -210,26 +210,50 @@ color: white;
 }
 .section-bigger {
     display: flex;
-    height: 600px;
+    min-height: 600px;
     width: 100%;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .wrapper4 {
     background-color: lightgray;
     
 }
-.card4 {
-    height: 80%;
-    background-color: green;
-    width: 60%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.section-bigger h1{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
 }
+.card4 {
+    min-height: 80%;
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.stars {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    
+}
+
+.stars-text{
+   padding-bottom: 2rem;
+   font-size: 1rem;
+}
+
+.download-discord2 {
+    background-color: blue;
+    color: whitesmoke;
+}
+
 
 .section-col {
     display: flex;
-    height: 400px;
+    min-height: 400px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -292,7 +316,7 @@ hr {
 
 footer {
     /* Debug */
-    background-color: darkslategrey;
+    background-color: rgb(76, 75, 75);
 }
 
 .main-column {
