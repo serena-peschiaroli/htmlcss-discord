@@ -133,7 +133,33 @@ color: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
- .section {
+
+.actions-discord {
+    display: flex;
+    max-width: 25rem;
+    justify-content: center;
+    margin: auto auto;
+}
+
+.button{
+    width: 9rem;
+    height: 4rem;
+    border-radius: 40%;
+    border: none;
+    font-size: 0.8rem;
+}
+
+.download-discord {
+    background-color: lightgray;
+    color: black;
+}
+.open-browser {
+    background-color: rgb(25, 24, 24);
+    color: white;
+}
+
+
+.section {
     display: flex;
    height: 400px;
     width: 100%;
