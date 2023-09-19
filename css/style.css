@@ -316,14 +316,29 @@ hr {
 
 footer {
     /* Debug */
-    background-color: rgb(76, 75, 75);
+    background-color: rgb(20, 20, 20);
 }
 
 .main-column {
     width: 30%;
-    /* Debug */
-    background-color: lightcyan;
     min-height: 400px;
+}
+.main-menu {
+    padding-top: 2rem;
+}
+.main-menu h4 {
+    font-size: 1.5rem;
+    color: rgb(91,32,154);
+
+}
+
+.main-menu p {
+    color: white;
+    font-size: 0.8rem;
+}
+.main-menu img {
+    height: 0.5rem;
+    width: 1rem;
 }
 
 .menu-column {
