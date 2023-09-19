@@ -25,7 +25,7 @@ body{
 
 .header-top {
     height: 5rem;
-    background-color: blue;
+    background-color: rgb(41, 100, 227);
     display: flex;
     color: white;
 }
@@ -130,8 +130,7 @@ color: white;
     width: 60%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
 .actions-discord {
@@ -139,12 +138,13 @@ color: white;
     max-width: 25rem;
     justify-content: center;
     margin: auto auto;
+    padding-top: 5rem;
 }
 
 .button{
-    width: 9rem;
+    width: 10rem;
     height: 4rem;
-    border-radius: 40%;
+    border-radius: 45%;
     border: none;
     font-size: 0.8rem;
 }
@@ -161,7 +161,7 @@ color: white;
 
 .section {
     display: flex;
-   height: 400px;
+    min-height: 500px;
     width: 100%;
     justify-content: center;
     align-items: center; 
@@ -171,8 +171,7 @@ color: white;
     justify-content: space-between;
 }
 .card1 {
-    height: 80%;
-    background-color: palevioletred;
+    min-height: 80%;
     width: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -184,20 +183,26 @@ color: white;
 }
 
 .card {
-    height: 80%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 1px dashed black;
+    min-height: 80%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
 }
 
 .card2{
-    background-color: lightblue;
-    width: 40%;
-   
+    width: 40%; 
 }
+
 .card2a {
-    background-color: lightpink;
     width: 20%;
+}
+
+.card2a h1 {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.card2a p {
+    line-height: 1rem;
 }
 
 .wrapper3 {
