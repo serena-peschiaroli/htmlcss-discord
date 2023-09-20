@@ -142,11 +142,10 @@ color: white;
 }
 
 .button{
-    width: 10rem;
-    height: 4rem;
-    border-radius: 45%;
-    border: none;
+    padding: .5em 1em;
+    border-radius: 1.5em;
     font-size: 0.8rem;
+    display: inline-block;
 }
 
 .download-discord {
@@ -315,13 +314,12 @@ hr {
 }
 
 footer {
-    /* Debug */
     background-color: rgb(20, 20, 20);
+    color: white;
 }
 
 .main-column {
     width: 30%;
-    min-height: 400px;
 }
 .main-menu {
     padding-top: 2rem;
@@ -329,16 +327,29 @@ footer {
 .main-menu h4 {
     font-size: 1.5rem;
     color: rgb(91,32,154);
+    padding-bottom: 2rem;
 
 }
 
-.main-menu p {
-    color: white;
+.main-menu span {
     font-size: 0.8rem;
+    padding-top: 2rem;
 }
 .main-menu img {
-    height: 0.5rem;
-    width: 1rem;
+    width: 2rem;
+    vertical-align: text-top;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.icons ul {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: white !important;
 }
 
 .menu-column {
